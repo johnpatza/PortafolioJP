@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio JP</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+<body>
+  <!--esta parte es de la cabecera y el menu-->
+  <div class="wrapper">
+    <header>
+      <nav class="navbar">
+        <div class="brand">
+          <h2>Mi Portal</h2>
+        </div>
+        <ul class="menu">
+          <li><a href="#" class="active">Inicio</a></li>
+          <li><a href="#acerca">Sobre Mi</a></li>
+          <li><a href="#porta">Portafolio</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--esta parte es de la descripcion principal y la imagen-->
+    <main class="main">
+      <div class="info-content">
+        <h1>Bienvenido a mi Portal</h1>
+        <p>Esta es una primera version de mi portal, vamos a ir variando y mejorando de acuerdo a las nuevas tecnologias y conocimientos aprendidos, espero que me dejen comentarios y podamos compatir conocimientos y proyectos.
+        </p>
+        <a download href="CV.pdf">
+          <button class="download-cv" download="">Descarga mi CV</button>        
+        </a>
+      </div>
+      <img src="img/JP.jpg" alt="">
+    </main>
+  </div>
+  <!--esta parte es de la seccion de "acerca de mi"-->
+  <div class="about" id="acerca">
+    <img src="img/about me.png" alt="">
+    <div class="about-info">
+      <h2>Acerca de Mi</h2>
+      <div class="divider"></div>
+      <p class="texto">Me llamo John, vivo en Lima-Peru, comence a trabajar en tecnologia en la rama de infraestructura, y me comenzo a interesar el area de Desarollo, por esa razon me puse a invetigar y estudiar por mi cuenta y luego ya de manera mas seria para poder realizar proyectos de Desarrollo.</p>
+      <button class="download-cv">Read More</button>
+    </div>
+  </div>
+  <!--esta parte es donde se detalla los proyectos realizados-->
+  <div class="portfolio" id="porta">
+    <div class="portfolio-headings">
+      <h2>My Portafolio</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="container">
+      <!--descripcion del proyecto 1-->
+      <div class="card">
+        <div class="card_img"></div>
+        <div class="card_title">
+          <h2>Portafolio</h2>
+          <p>El reto era crear un portafolio simple pero que muestre los trabajos realizados por el desarrollador.</p>
+        </div>
+        <div class="card_project-links">
+          <a href="">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="">
+            <i class="fas fa-globe-americas"></i>
+          </a>
+          <a href="">
+            <i class="fas fa-code"></i>
+          </a>
+        </div>        
+        <button class="project-details download-cv">
+          <a href="">
+            Detalle
+          </a>          
+        </button>
+      </div>
+      <!--descripcion del proyecto 2-->
+      <div class="card">
+        <div class="card_img"></div>
+        <div class="card_title">
+          <h2>Clone de Instagram</h2>
+          <p>El reto era crear un clon de Instagram sin funcionalidades.</p>
+        </div>
+        <div class="card_project-links">
+          <a href="">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="">
+            <i class="fas fa-globe-americas"></i>
+          </a>
+          <a href="">
+            <i class="fas fa-code"></i>
+          </a>
+        </div>        
+        <button class="project-details download-cv">
+          <a href="">
+            Detalle
+          </a>          
+        </button>
+      </div>
+      <!--descripcion del proyecto 3-->
+      <div class="card">
+        <div class="card_img"></div>
+        <div class="card_title">
+          <h2>Carrito de Compras</h2>
+          <p>El reto era crear un carrito de compras para una pagina de E-commerce.</p>
+        </div>
+        <div class="card_project-links">
+          <a href="">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="">
+            <i class="fas fa-globe-americas"></i>
+          </a>
+          <a href="">
+            <i class="fas fa-code"></i>
+          </a>
+        </div>        
+        <button class="project-details download-cv">
+          <a href="">
+            Detalle
+          </a>          
+        </button>
+      </div>
+    </div>
+  </div>
+  <!--seccion de formulario de contacto-->
+  <div class="contact-section" id="contact">
+    <div class="contact-headings">
+      <h2>Sigamos en contacto</h2>
+      <div class="divider"></div>
+    </div>    
+    <div class="container-contac">
+      <!--formulario de contacto-->
+      <div class="contact-form">
+        <h4>Enviame un mensaje</h4>
+        <form class="form">
+          <input type="text" placeholder="Name">
+          <input type="email" placeholder="Email">
+          <textarea placeholder="Place your message here..." >        
+          </textarea>
+          <button type="submit" class="btn-submit">
+            Enviar mensaje
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!--seccion del footer-->
+  <footer class="footer">
+    <div class="footer-content">
+      <h2>John Patiño</h2>
+      <h5>Fullstack Developer</h5>
+    </div>
+    <div class="social-network">
+      <a href="https://www.instagram.com/johnpatza/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/johnpatza/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://twitter.com/johnpatza" target="_blank"><i class="fab fa-twitter"></i></a>
+    </div>
+  </footer>
+</body>
+</html>
